@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>광덕산도 식후경</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-	async defer></script>
+	async defer></script> -->
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
@@ -18,15 +18,37 @@
 		</nav>
 	</header>
 	<main>
-		<figur class="banner">
+		<figure class="css_banner">
 			<div class="figure_header">
 				<h2>광덕산도 식후경</h2>
 				<p>안녕하세요 디지털아트 전공 19학번s 입니다. 점심에 뭐 먹을지 고민하기 너무 지쳐서 만들어보는 지도입니다.</p>
 			</div>
 		</figure>
+		<section >
+			<article>
+				<p>이게 뭐냐믄 지도에용. 요 밑에 지도 띄울라고</p>
+				<div id="js-map"><br>&nbsp;지도가 표시될 영역</div>
+			</article>
+			<form>
+				<fieldset>
+					<legend>검색하기</legend>
+					<div class="form-group">
+						<label for="name">식당 이름으로 찾기</label>
+						<input type="text" name="name">
+					</div>
+					<div class="form-group">
+						<label for="menu">메뉴 이름으로 찾기</label>
+						<input type="text" name="menu">
+					</div>
+					<div class="form-group">
+						<button>SEND</button>
+					</div>
+				</fieldset>
+			</form>
+		</section>
 	</main>
 
 </body>
-<script src="js/index.js"></script>
-<script type="js/googleMapAPI.js"></script>
+<!-- <script src="js/index.js"></script>
+<script type="js/googleMapAPI.js"></script> -->
 </html>

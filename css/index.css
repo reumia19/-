@@ -22,3 +22,40 @@ header nav a{
 	padding-left:10px;
 	padding-right: 10px;
 }
+
+main{
+	position: relative;
+	overflow: hidden;
+}
+
+
+main figure.css_banner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 960px; height: 180px;
+	margin: 0 auto;
+	background: #777;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+main .figure_header{
+	width: 960px;
+	text-align: center;
+	color: white;
+}
+.figure_header > h2{
+	font-size: 2.5em;
+}
+main > section{
+	width :960px;
+	margin : 0 auto;
+	background: #fff;
+}
+main > section > article{
+	width: 66%; 
+	overflow: hidden;
+	float: left;
+}
+
