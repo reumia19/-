@@ -72,6 +72,7 @@ main > section > article p{
 aside{
 	float: right;
 	width: 34%;
+	min-width: 10%;
 	box-sizing: border-box;
 	padding: 20px;
 	padding-top: 0;
@@ -111,4 +112,10 @@ footer{
 	display: block;
 	text-align: center;
 	margin: 10px;
+}
+
+@media screen and (min-width: 700px){
+	aside{
+		display: inline-block;
+	}
 }
