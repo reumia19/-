@@ -46,7 +46,7 @@ main .figure_header{
 	color: white;
 }
 .figure_header > h2{
-	font-size: 2.5em;
+	font-size: 2em;
 }
 main > section{
 	width :960px;
@@ -105,4 +105,9 @@ button{
 }
 button:hover{
 	background: #ff80ab;
+}
+footer{
+	display: block;
+	text-align: center;
+	margin: 10px;
 }
