@@ -47,8 +47,15 @@
 			</form>
 		</section>
 	</main>
-<script src="js/googleMapAPI.js"></script>
+	<script>
+		function initMap() {
+			const map = new google.maps.Map(document.querySelector(".js-map"), {
+				center: {lat: 37.3340927, lng: 126.8340789},
+				scrollwheel:false,
+				zoom: 8
+			});
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFzVLQR6vV9EaGOSrmaUbOX8_JE_6WBTM&callback=initMap"async defer></script>
 </body>
-<!-- <script src="js/index.js"></script> -->
-
 </html>
