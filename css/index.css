@@ -90,7 +90,7 @@ input,textarea{
 	background: #ddd;
 	padding: 10px;
 	resize: none;
-	border-radius: 15px;
+	border-radius: 18px;
 }
 label,input, textarea{
 	width:90%;
@@ -101,6 +101,7 @@ button{
 	color: white;
 	border: none;
 	padding: 10px 40px;
+	border-radius: 18px;
 }
 button:hover{
 	background: #ff80ab;
