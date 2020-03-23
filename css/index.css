@@ -2,7 +2,7 @@
 body{ color: #333; }
 a{text-decoration: none; color: #333;}
 header{
-	width:960px;
+	max-width:960px;
 	height: 80px;
 	overflow: hidden;
 	margin: 0px auto;
