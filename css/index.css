@@ -68,7 +68,7 @@ article .js-map{
 main > section > article p{
 	margin-bottom: 20px;
 }
-main > section > aside{
+aside{
 	float: right;
 	width: 34%;
 	box-sizing: border-box;
