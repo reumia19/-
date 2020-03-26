@@ -13,4 +13,15 @@ div{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	background: #fe6081;
+	text-align: center;
+}
+
+.box input{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 25px auto;
+	text-align: center;
+	border: 2px solid #333;
+	padding: 14px 10px;
 }
