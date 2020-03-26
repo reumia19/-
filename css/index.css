@@ -93,6 +93,7 @@ input,textarea{
 	padding: 10px;
 	resize: none;
 	border-radius: 18px;
+	outline: none;
 }
 label,input, textarea{
 	width:90%;
