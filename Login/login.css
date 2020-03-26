@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;}
+body{ 
+	color: #333;}
+div{
+
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fe6081;
+}
